@@ -25,7 +25,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#0f172a" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
